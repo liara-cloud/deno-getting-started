@@ -35,4 +35,4 @@ async function handler(req: Request): Promise<Response> {
 
 // Start server on port 8000
 serve(handler, { port: 8000 });
-console.log("Server is running at http://localhost:8000");
+console.log("Server is running at port 8000");
